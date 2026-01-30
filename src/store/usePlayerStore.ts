@@ -17,25 +17,25 @@ export const DEFAULT_PLAYLIST: Track[] = [
     {
         id: 'lofi-girl',
         title: 'Lofi Girl',
-        url: 'https://youtu.be/lTRiuFIWV54?si=czOPpGpYOxSGB9Yz',
+        url: 'https://www.youtube.com/watch?v=lTRiuFIWV54',
         provider: 'youtube'
     },
     {
         id: 'synthwave',
         title: 'Synthwave Radio - beats to chill/game to',
-        url: 'https://youtu.be/MVPTGNGiI-4?si=czOPpGpYOxSGB9Yz',
+        url: 'https://www.youtube.com/watch?v=MVPTGNGiI-4',
         provider: 'youtube'
     },
     {
         id: 'coffee-shop',
         title: 'Coffee Shop Vibes - Smooth Jazz & Rain',
-        url: 'https://youtu.be/lP26UCnoH9s?si=czOPpGpYOxSGB9Yz',
+        url: 'https://www.youtube.com/watch?v=lP26UCnoH9s',
         provider: 'youtube'
     },
     {
         id: 'ghibli',
         title: 'Studio Ghibli Piano Collection',
-        url: 'https://youtu.be/0K4oym9fv6o?si=czOPpGpYOxSGB9Yz',
+        url: 'https://www.youtube.com/watch?v=0K4oym9fv6o',
         provider: 'youtube'
     }
 ]

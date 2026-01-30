@@ -32,7 +32,11 @@ export default function AudioPlayer() {
                 height="1px"
                 config={{
                     youtube: {
-                        playerVars: { showinfo: 0, controls: 0, disablekb: 1 }
+                        playerVars: {
+                            origin: typeof window !== 'undefined' ? window.location.origin : '',
+                            autoplay: 0,
+                            controls: 0
+                        }
                     }
                 }}
                 onError={(e: any) => console.error('[AudioPlayer] Error:', e)}
